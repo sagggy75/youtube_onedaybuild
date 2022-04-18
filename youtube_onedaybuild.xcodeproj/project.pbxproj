@@ -18,6 +18,7 @@
 		3D1E298B280B4EAE0067F32B /* youtube_onedaybuildUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E298A280B4EAE0067F32B /* youtube_onedaybuildUITestsLaunchTests.swift */; };
 		3D1E2998280D48C00067F32B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E2997280D48C00067F32B /* Constants.swift */; };
 		3D1E299A280D4FC20067F32B /* YoutubeVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E2999280D4FC20067F32B /* YoutubeVideoModel.swift */; };
+		3D1E299C280D95770067F32B /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E299B280D95770067F32B /* HTTPUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3D1E298A280B4EAE0067F32B /* youtube_onedaybuildUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_onedaybuildUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D1E2997280D48C00067F32B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3D1E2999280D4FC20067F32B /* YoutubeVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoModel.swift; sourceTree = "<group>"; };
+		3D1E299B280D95770067F32B /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3D1E2975280B4EAD0067F32B /* Info.plist */,
 				3D1E2997280D48C00067F32B /* Constants.swift */,
 				3D1E2999280D4FC20067F32B /* YoutubeVideoModel.swift */,
+				3D1E299B280D95770067F32B /* HTTPUtility.swift */,
 			);
 			path = youtube_onedaybuild;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				3D1E299A280D4FC20067F32B /* YoutubeVideoModel.swift in Sources */,
 				3D1E2968280B4EAB0067F32B /* AppDelegate.swift in Sources */,
 				3D1E296A280B4EAB0067F32B /* SceneDelegate.swift in Sources */,
+				3D1E299C280D95770067F32B /* HTTPUtility.swift in Sources */,
 				3D1E2998280D48C00067F32B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
