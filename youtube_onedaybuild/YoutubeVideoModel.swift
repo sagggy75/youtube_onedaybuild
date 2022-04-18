@@ -11,27 +11,12 @@ class YoutubeVideoModel: NSObject {
 
 	func getVideos() {
 		
-		let urlStr = URL.init(string: Constants.API_URL)
-		
-		guard let url = urlStr else { return }
-		
-		let task = URLSession.shared.dataTask(with: url) { (data, urlResponse, error) in
-			guard error == nil && data != nil else {
-				return
-			}
-			do {
-				let jsonDecoder = JSONDecoder()
-				jsonDecoder.dateDecodingStrategy = .iso8601
-				let model = try jsonDecoder.decode(Response.self, from: data!)
-				dump(model)
-			}
-			catch {
-				debugPrint("seems like something went wrong")
-				debugPrint(error.localizedDescription)
-			}
+		HTTPUtility().getResponseFor(apiEndPoint: PlayListAPIEndPoint()) { (res: Response?, error) in
+			debugPrint(res?.items?.count)
+			debugPrint(error?.localizedDescription)
 		}
-		task.resume()
 	}
+	
 }
 
 struct Video: Decodable {
