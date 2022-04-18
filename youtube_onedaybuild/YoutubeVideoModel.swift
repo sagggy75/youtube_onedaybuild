@@ -26,6 +26,7 @@ class YoutubeVideoModel: NSObject {
 				dump(model)
 			}
 			catch {
+				debugPrint("seems like something went wrong")
 				debugPrint(error.localizedDescription)
 			}
 		}
