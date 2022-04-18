@@ -16,6 +16,8 @@
 		3D1E297F280B4EAE0067F32B /* youtube_onedaybuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E297E280B4EAE0067F32B /* youtube_onedaybuildTests.swift */; };
 		3D1E2989280B4EAE0067F32B /* youtube_onedaybuildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E2988280B4EAE0067F32B /* youtube_onedaybuildUITests.swift */; };
 		3D1E298B280B4EAE0067F32B /* youtube_onedaybuildUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E298A280B4EAE0067F32B /* youtube_onedaybuildUITestsLaunchTests.swift */; };
+		3D1E2998280D48C00067F32B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E2997280D48C00067F32B /* Constants.swift */; };
+		3D1E299A280D4FC20067F32B /* YoutubeVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E2999280D4FC20067F32B /* YoutubeVideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D1E2984280B4EAE0067F32B /* youtube_onedaybuildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youtube_onedaybuildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1E2988280B4EAE0067F32B /* youtube_onedaybuildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_onedaybuildUITests.swift; sourceTree = "<group>"; };
 		3D1E298A280B4EAE0067F32B /* youtube_onedaybuildUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_onedaybuildUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D1E2997280D48C00067F32B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D1E2999280D4FC20067F32B /* YoutubeVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3D1E2970280B4EAD0067F32B /* Assets.xcassets */,
 				3D1E2972280B4EAD0067F32B /* LaunchScreen.storyboard */,
 				3D1E2975280B4EAD0067F32B /* Info.plist */,
+				3D1E2997280D48C00067F32B /* Constants.swift */,
+				3D1E2999280D4FC20067F32B /* YoutubeVideoModel.swift */,
 			);
 			path = youtube_onedaybuild;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1E296C280B4EAB0067F32B /* ViewController.swift in Sources */,
+				3D1E299A280D4FC20067F32B /* YoutubeVideoModel.swift in Sources */,
 				3D1E2968280B4EAB0067F32B /* AppDelegate.swift in Sources */,
 				3D1E296A280B4EAB0067F32B /* SceneDelegate.swift in Sources */,
+				3D1E2998280D48C00067F32B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
